@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
+
 import '@/css/sale.css';
 
 export default function sale() {
@@ -20,40 +20,40 @@ export default function sale() {
                       <h3><b>45% OFF</b></h3>
                   </div>
 
-                  <div className="Image">
+                  <div className="img">
                       <div>
-                        <Image src="/p-1.jpg" alt="clothes"/>
+                        <img src="/p-1.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>  
-                        <Image src="/p-2.jpg" alt="clothes"/>
+                        <img src="/p-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div> 
 
                       <div> 
-                        <Image src="/p-3.jpg" alt="clothes"/>
+                        <img src="/p-3.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/p-2.jpg" alt="clothes"/>
+                        <img src="/p-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/p-5.jpg" alt="clothes"/>
+                        <img src="/p-5.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       </div>
@@ -68,40 +68,40 @@ export default function sale() {
                       <h3><b>50% OFF</b></h3>
                   </div>
 
-                  <div className="Image">
+                  <div className="img">
                       <div>
-                        <Image src="/s-1.jpg" alt="clothes"/>
+                        <img src="/s-1.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>  
-                        <Image src="/s-2.jpg" alt="clothes"/>
+                        <img src="/s-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div> 
 
                       <div> 
-                        <Image src="/s-3.jpg" alt="clothes"/>
+                        <img src="/s-3.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/s-2.jpg" alt="clothes"/>
+                        <img src="/s-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/s-5.jpg" alt="clothes"/>
+                        <img src="/s-5.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       </div>
@@ -111,7 +111,7 @@ export default function sale() {
  {/* 3 brands */}
  <section>
             <div className="brand-1">
-              <Image src="/group-3.png" alt="brands"/>
+              <img src="/group-3.png" alt="brands"/>
             </div>
           
                   
@@ -121,40 +121,40 @@ export default function sale() {
                       <h3><b>60% OFF</b></h3>
                   </div>
 
-                  <div className="Image">
+                  <div className="img">
                       <div>
-                        <Image src="/w-1.jpg" alt="clothes"/>
+                        <img src="/w-1.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>  
-                        <Image src="/w-2.jpg" alt="clothes"/>
+                        <img src="/w-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div> 
 
                       <div> 
-                        <Image src="/w-3.jpg" alt="clothes"/>
+                        <img src="/w-3.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/w-2.jpg" alt="clothes"/>
+                        <img src="/w-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/w-5.jpg" alt="clothes"/>
+                        <img src="/w-5.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       </div>
@@ -166,7 +166,7 @@ export default function sale() {
  {/* 4 brands */}
  <section>
             <div className="brand-1">
-              <Image src="/group-4.png" alt="brands"/>
+              <img src="/group-4.png" alt="brands"/>
             </div>
           
                   
@@ -176,40 +176,40 @@ export default function sale() {
                       <h3><b>75% OFF</b></h3>
                   </div>
 
-                  <div className="Image">
+                  <div className="img">
                       <div>
-                        <Image src="/p-1.jpg" alt="clothes"/>
+                        <img src="/p-1.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>  
-                        <Image src="/p-2.jpg" alt="clothes"/>
+                        <img src="/p-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div> 
 
                       <div> 
-                        <Image src="/p-3.jpg" alt="clothes"/>
+                        <img src="/p-3.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/p-2.jpg" alt="clothes"/>
+                        <img src="/p-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/p-5.jpg" alt="clothes"/>
+                        <img src="/p-5.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       </div>

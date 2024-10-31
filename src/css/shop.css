@@ -20,18 +20,18 @@
     font-size:x-large;
 }
 
-.Image{
+.img{
     display: flex;
     gap: 40px;
     padding-top: 10px;
     justify-content: center;
 }
 
-.Image Image{
+.img img{
     width: 200px;
 }
 
-.Image h3{
+.img h3{
     padding-top: 10px;
 }
 
@@ -51,18 +51,18 @@
     font-size:x-large;
 }
 
-.summer-Image{
+.summer-img{
     display: flex;
     gap: 40px;
     padding-top: 10px;
     justify-content: center;
 }
 
-.summer-Image Image{
+.summer-img img{
     width: 200px;
 }
 
-.summer-Image h3{
+.summer-img h3{
     padding-top: 10px;
 }
 
@@ -82,18 +82,18 @@
     font-size:x-large;
 }
 
-.winter-Image{
+.winter-img{
     display: flex;
     gap: 40px;
     padding-top: 10px;
     justify-content: center;
 }
 
-.winter-Image Image{
+.winter-img img{
     width: 200px;
 }
 
-.winter-Image h3{
+.winter-img h3{
     padding-top: 10px;
 }
 

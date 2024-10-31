@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
+
 import '../css/page.css';
 
 export default function Home() {
@@ -28,7 +28,7 @@ export default function Home() {
               </div>
 
               <div>
-                <Image src="/Image-1.png" alt="couple"/>
+                <img src="/img-1.png" alt="couple"/>
               </div>
           </div>
         </section>
@@ -37,11 +37,11 @@ export default function Home() {
       {/* advertisment */}
           <section>
             <div className="ads">
-              <Image src="/group-1.png" alt="brands"/>
-              <Image src="/group-2.png" alt="brands"/>
-              <Image src="/group-3.png" alt="brands"/>
-              <Image src="/group-4.png" alt="brands"/>
-              <Image src="/group-5.png" alt="brands"/>
+              <img src="/group-1.png" alt="brands"/>
+              <img src="/group-2.png" alt="brands"/>
+              <img src="/group-3.png" alt="brands"/>
+              <img src="/group-4.png" alt="brands"/>
+              <img src="/group-5.png" alt="brands"/>
             </div>
           </section>
 
@@ -52,40 +52,40 @@ export default function Home() {
                       <h3><b>PARTY WEAR</b></h3>
                   </div>
 
-                  <div className="Image">
+                  <div className="img">
                       <div>
-                        <Image src="/p-1.jpg" alt="clothes"/>
+                        <img src="/p-1.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>  
-                        <Image src="/p-2.jpg" alt="clothes"/>
+                        <img src="/p-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div> 
 
                       <div> 
-                        <Image src="/p-3.jpg" alt="clothes"/>
+                        <img src="/p-3.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/p-2.jpg" alt="clothes"/>
+                        <img src="/p-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/p-5.jpg" alt="clothes"/>
+                        <img src="/p-5.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       </div>
@@ -101,40 +101,40 @@ export default function Home() {
                       <h3><b>SUMMER COLLECTION</b></h3>
                   </div>
 
-                  <div className="summer-Image">
+                  <div className="summer-img">
                       <div>
-                        <Image src="/s-1.jpg" alt="clothes"/>
+                        <img src="/s-1.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>  
-                        <Image src="/s-2.jpg" alt="clothes"/>
+                        <img src="/s-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div> 
 
                       <div> 
-                        <Image src="/s-3.jpg" alt="clothes"/>
+                        <img src="/s-3.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/s-4.jpg" alt="clothes"/>
+                        <img src="/s-4.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div >
-                        <Image src="/s-5.jpg" alt="clothes"/>
+                        <img src="/s-5.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
                       
 
@@ -151,40 +151,40 @@ export default function Home() {
                       <h3><b>WINTER COLLECTION</b></h3>
                   </div>
 
-                  <div className="winter-Image">
+                  <div className="winter-img">
                       <div>
-                        <Image src="/w-1.jpg" alt="clothes"/>
+                        <img src="/w-1.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>  
-                        <Image src="/w-2.jpg" alt="clothes"/>
+                        <img src="/w-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div> 
 
                       <div> 
-                        <Image src="/w-3.jpg" alt="clothes"/>
+                        <img src="/w-3.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/w-4.jpg" alt="clothes"/>
+                        <img src="/w-4.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/w-5.jpg" alt="clothes"/>
+                        <img src="/w-5.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       </div>
@@ -200,14 +200,14 @@ export default function Home() {
                            <h2><b>BROWSE BY DRESS STYLE</b></h2>
                             
 
-                            <div className="browse-Image">
-                              <div className="image">
-                            <Image src="/z-1.jpg" alt="rating"/><br/>
-                            <Image src="/z-2.jpg" alt="rating"/>
+                            <div className="browse-img">
+                              <div className="img">
+                            <img src="/z-1.jpg" alt="rating"/><br/>
+                            <img src="/z-2.jpg" alt="rating"/>
                             </div>
-                            <div className="image">
-                            <Image src="/z-3.jpg" alt="rating"/><br/>
-                            <Image src="/z-4.jpg" alt="rating"/>
+                            <div className="img">
+                            <img src="/z-3.jpg" alt="rating"/><br/>
+                            <img src="/z-4.jpg" alt="rating"/>
                             </div>
                             </div>
                             </div>
@@ -222,7 +222,7 @@ export default function Home() {
 
                           <div className="customer-content">
                           <div className="customer-content-1">
-                          <Image src="/group-6.png" alt="rating"/>
+                          <img src="/group-6.png" alt="rating"/>
                           <h3><b>Sarah M.</b></h3>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius
                              accusantium ad laudantium maxime a laboriosam doloremque repellendus!
@@ -230,7 +230,7 @@ export default function Home() {
                           </div>
 
                           <div className="customer-content-1">
-                          <Image src="/group-6.png" alt="rating"/>
+                          <img src="/group-6.png" alt="rating"/>
                           <h3><b>Sarah M.</b></h3>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius
                              accusantium ad laudantium maxime a laboriosam doloremque repellendus!
@@ -238,7 +238,7 @@ export default function Home() {
                           </div>
 
                           <div className="customer-content-1">
-                          <Image src="/group-6.png" alt="rating"/>
+                          <img src="/group-6.png" alt="rating"/>
                           <h3><b>Sarah M.</b></h3>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius
                              accusantium ad laudantium maxime a laboriosam doloremque repellendus!

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
+
 import '@/css/arrivals.css';
 
 export default function Arrivals() {
@@ -13,113 +13,113 @@ export default function Arrivals() {
                       <h3><b>PARTY WEAR</b></h3>
                   </div>
 
-                  <div className="Image">
+                  <div className="img">
                       <div>
-                        <Image src="/p-1.jpg" alt="clothes"/>
+                        <img src="/p-1.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>  
-                        <Image src="/p-2.jpg" alt="clothes"/>
+                        <img src="/p-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div> 
 
                       <div> 
-                        <Image src="/p-3.jpg" alt="clothes"/>
+                        <img src="/p-3.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/p-2.jpg" alt="clothes"/>
+                        <img src="/p-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/p-5.jpg" alt="clothes"/>
+                        <img src="/p-5.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
                       </div>
 
-                      <div className="Image">
+                      <div className="img">
                       <div>
-                        <Image src="/p-1.jpg" alt="clothes"/>
+                        <img src="/p-1.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>  
-                        <Image src="/p-2.jpg" alt="clothes"/>
+                        <img src="/p-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div> 
 
                       <div> 
-                        <Image src="/p-3.jpg" alt="clothes"/>
+                        <img src="/p-3.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/p-2.jpg" alt="clothes"/>
+                        <img src="/p-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/p-5.jpg" alt="clothes"/>
+                        <img src="/p-5.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
                       </div>
 
-                      <div className="Image">
+                      <div className="img">
                       <div>
-                        <Image src="/p-1.jpg" alt="clothes"/>
+                        <img src="/p-1.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>  
-                        <Image src="/p-2.jpg" alt="clothes"/>
+                        <img src="/p-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div> 
 
                       <div> 
-                        <Image src="/p-3.jpg" alt="clothes"/>
+                        <img src="/p-3.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/p-2.jpg" alt="clothes"/>
+                        <img src="/p-2.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
 
                       <div>
-                        <Image src="/p-5.jpg" alt="clothes"/>
+                        <img src="/p-5.jpg" alt="clothes"/>
                         <h3>Couple Party Wear</h3>
                         <p>$120</p>
-                        <Image src="/group-6.png" alt="rating"/>
+                        <img src="/group-6.png" alt="rating"/>
                       </div>
                       </div>
 
@@ -137,7 +137,7 @@ export default function Arrivals() {
 
                           <div className="customer-content">
                           <div className="customer-content-1">
-                          <Image src="/group-6.png" alt="rating"/>
+                          <img src="/group-6.png" alt="rating"/>
                           <h3><b>Sarah M.</b></h3>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius
                              accusantium ad laudantium maxime a laboriosam doloremque repellendus!
@@ -145,7 +145,7 @@ export default function Arrivals() {
                           </div>
 
                           <div className="customer-content-1">
-                          <Image src="/group-6.png" alt="rating"/>
+                          <img src="/group-6.png" alt="rating"/>
                           <h3><b>Sarah M.</b></h3>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius
                              accusantium ad laudantium maxime a laboriosam doloremque repellendus!
@@ -153,7 +153,7 @@ export default function Arrivals() {
                           </div>
 
                           <div className="customer-content-1">
-                          <Image src="/group-6.png" alt="rating"/>
+                          <img src="/group-6.png" alt="rating"/>
                           <h3><b>Sarah M.</b></h3>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius
                              accusantium ad laudantium maxime a laboriosam doloremque repellendus!

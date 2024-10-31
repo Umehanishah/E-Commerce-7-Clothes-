@@ -5,13 +5,13 @@
     font-size:x-large;
 }
 
-.Image{
+.img{
     display: flex;
     gap: 40px;
     padding-top: 10px;
     justify-content: center;
 }
 
-.Image Image{
+.img img{
     width: 200px;
 }

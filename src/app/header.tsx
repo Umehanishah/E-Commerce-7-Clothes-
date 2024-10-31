@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+
 import '../css/header.css';
 import { Button } from '@/components/ui/button';
 
@@ -37,14 +37,14 @@ export default function Header() {
              {/* Search box */}
                   <div className='search-box'>
                       <Button>
-                        <Image src="/icon-1.png" alt="search"/>
+                        <img src="/icon-1.png" alt="search"/>
                         Search...</Button>
                     </div>
             
             {/* icons */}
                 <div className='icon'>
-                    <Image src="/icon-2.png" alt="search"/>
-                    <Image src="/icon-3.png" alt="search"/>
+                    <img src="/icon-2.png" alt="search"/>
+                    <img src="/icon-3.png" alt="search"/>
                     </div>
 
             </section>
