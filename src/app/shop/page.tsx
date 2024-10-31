@@ -1,52 +1,27 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import '../css/page.css';
+import '@/css/shop.css';
 
-export default function Home() {
+export default function Shop() {
   return (
     <main>
       {/* header section */}
         <section>
-          <div className="display">
-            <div className="display-view">
-              <div className="display-content">
-               <h1><b>FIND CLOTHES THAT MATCHES YOUR STYLE</b></h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quasi vitae ratione culpa assumenda fuga recusandae mollitia tempora consequuntur voluptatibus fugit laudantium ad, eos maiores! Quod dolor perspiciatis saepe asperiores?</p>
-                <Button>Shop Now</Button>
-                </div>
-                <div className="display-tag">
-                <p><b>200+ </b><br/>
-                <span>International Brands</span></p>
-                
-                <p><b>2000+ </b><br/>
-                <span>High Quality Products</span></p>
-
-                <p><b>3000+ </b><br/>
-                <span>Happy Customers</span></p>
-                </div>
-
-              </div>
-
-              <div>
-                <Image src="/Image-1.png" alt="couple"/>
-              </div>
-          </div>
+         <div className="button-content">
+            <Button>Previous</Button>
+            <Button>1</Button>
+            <Button>2</Button>
+            <Button>3</Button>
+            <Button>4</Button>
+            <Button>5</Button>
+            <Button>Next</Button>
+            
+         </div>
         </section>
       
 
-      {/* advertisment */}
-          <section>
-            <div className="ads">
-              <Image src="/group-1.png" alt="brands"/>
-              <Image src="/group-2.png" alt="brands"/>
-              <Image src="/group-3.png" alt="brands"/>
-              <Image src="/group-4.png" alt="brands"/>
-              <Image src="/group-5.png" alt="brands"/>
-            </div>
-          </section>
-
-          {/* New Arrivals  */}
-              <section>
+         {/* New Arrivals  */}
+         <section>
                   <div className="new-arrivals">
                       <h2><b>NEW ARRIVALS</b></h2>
                       <h3><b>PARTY WEAR</b></h3>
@@ -194,62 +169,8 @@ export default function Home() {
                   
               </section>
 
-              {/* Browse */}
+                {/* Update */}
                 <section>
-                    <div className="browse">
-                           <h2><b>BROWSE BY DRESS STYLE</b></h2>
-                            
-
-                            <div className="browse-Image">
-                              <div className="image">
-                            <Image src="/z-1.jpg" alt="rating"/><br/>
-                            <Image src="/z-2.jpg" alt="rating"/>
-                            </div>
-                            <div className="image">
-                            <Image src="/z-3.jpg" alt="rating"/><br/>
-                            <Image src="/z-4.jpg" alt="rating"/>
-                            </div>
-                            </div>
-                            </div>
-                </section>
-
-
-              {/* Customers */}
-                  <section>
-                      <div className="customer">
-                            <h2><b>OUR HAPPY CUSTOMERS</b></h2>
-                            </div>
-
-                          <div className="customer-content">
-                          <div className="customer-content-1">
-                          <Image src="/group-6.png" alt="rating"/>
-                          <h3><b>Sarah M.</b></h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius
-                             accusantium ad laudantium maxime a laboriosam doloremque repellendus!
-                              Ad eligendi architecto a quod culpa. Velit quos magnam possimus beatae fugiat!</p>
-                          </div>
-
-                          <div className="customer-content-1">
-                          <Image src="/group-6.png" alt="rating"/>
-                          <h3><b>Sarah M.</b></h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius
-                             accusantium ad laudantium maxime a laboriosam doloremque repellendus!
-                              Ad eligendi architecto a quod culpa. Velit quos magnam possimus beatae fugiat!</p>
-                          </div>
-
-                          <div className="customer-content-1">
-                          <Image src="/group-6.png" alt="rating"/>
-                          <h3><b>Sarah M.</b></h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius
-                             accusantium ad laudantium maxime a laboriosam doloremque repellendus!
-                              Ad eligendi architecto a quod culpa. Velit quos magnam possimus beatae fugiat!</p>
-                          </div>
-                         
-                          </div>
-                  </section>
-
-                  {/* Update */}
-                  <section>
                     <div className="update">
                         <div>
                         <h1><b>STAY UPTO DATE ABOUT OUR LATEST OFFERS</b></h1>
@@ -262,6 +183,7 @@ export default function Home() {
                     
                     </div>
                   </section>
-    </main>
+
+           </main>
   );
 }

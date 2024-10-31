@@ -1,0 +1,128 @@
+.button-content{
+    background-color: rgb(238, 236, 236);
+    padding: 10px 80px;
+}
+
+.button-content Button{
+    margin-left: 20px;
+}
+
+
+.new-arrivals h2{
+    text-align: center;
+    padding-top: 40px;
+    font-size:xx-large;
+}
+
+.new-arrivals h3{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size:x-large;
+}
+
+.Image{
+    display: flex;
+    gap: 40px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.Image Image{
+    width: 200px;
+}
+
+.Image h3{
+    padding-top: 10px;
+}
+
+.button{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.button Button{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.summer h3{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size:x-large;
+}
+
+.summer-Image{
+    display: flex;
+    gap: 40px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.summer-Image Image{
+    width: 200px;
+}
+
+.summer-Image h3{
+    padding-top: 10px;
+}
+
+.summer-button{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.button Button{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.winter h3{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size:x-large;
+}
+
+.winter-Image{
+    display: flex;
+    gap: 40px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.winter-Image Image{
+    width: 200px;
+}
+
+.winter-Image h3{
+    padding-top: 10px;
+}
+
+.winter-button{
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.button Button{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.update{
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.update h1{
+    font-size: xx-large;
+    padding: 10px 20px;
+}
+
+.update-button button{
+    display: flex;
+    margin: 5px;
+}

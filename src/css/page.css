@@ -1,0 +1,213 @@
+.body{
+    margin: 0;
+}
+
+.display{
+    display: flex;
+   background-color: rgb(240, 238, 238);
+}
+
+.display-content h1{
+    font-size:xx-large;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+.display-content p{
+    font-size:medium;
+    color: gray;
+    padding: 20px 40px;
+}
+
+.display-content button{
+    font-size:small;
+    padding: 10px 20px;
+    margin: 20px 40px;
+}
+
+.display-tag{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 20px 40px;
+}
+
+.display-tag p{
+    font-size: larger;
+    color: rgb(101, 100, 100);
+}
+
+.display-tag span{
+    font-size:smaller;
+    color:rgb(171, 170, 170);
+}
+
+.ads{
+    background-color: black;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    padding: 10px;
+    height: 40px;
+}
+
+.new-arrivals h2{
+    text-align: center;
+    padding-top: 40px;
+    font-size:xx-large;
+}
+
+.new-arrivals h3{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size:x-large;
+}
+
+.Image{
+    display: flex;
+    gap: 40px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.Image Image{
+    width: 200px;
+}
+
+.Image h3{
+    padding-top: 10px;
+}
+
+.button{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.button Button{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.summer h3{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size:x-large;
+}
+
+.summer-Image{
+    display: flex;
+    gap: 40px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.summer-Image Image{
+    width: 200px;
+}
+
+.summer-Image h3{
+    padding-top: 10px;
+}
+
+.summer-button{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.button Button{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.winter h3{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size:x-large;
+}
+
+.winter-Image{
+    display: flex;
+    gap: 40px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.winter-Image Image{
+    width: 200px;
+}
+
+.winter-Image h3{
+    padding-top: 10px;
+}
+
+.winter-button{
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.button Button{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.browse{
+    background-color: rgb(240, 239, 239);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size:x-large;
+}
+
+.browse-Image{
+    display: flex;
+    gap: 10px;
+    width: 600px;
+    padding-top: 20px;
+    padding-left: 40px;
+    justify-content: center;
+    margin-left: 12em;
+}
+
+.customer{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size:x-large;
+}
+
+.customer-content{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.customer-content-1{
+    background-color: rgb(240, 238, 238);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.customer-content-1 p{
+    color: gray;
+    font-size: small;
+}
+
+.update{
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.update h1{
+    font-size: xx-large;
+    padding: 10px 20px;
+}
+
+.update-button button{
+    display: flex;
+    margin: 5px;
+}

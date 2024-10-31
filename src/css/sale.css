@@ -1,0 +1,17 @@
+
+.new-arrivals h3{
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size:x-large;
+}
+
+.Image{
+    display: flex;
+    gap: 40px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.Image Image{
+    width: 200px;
+}
