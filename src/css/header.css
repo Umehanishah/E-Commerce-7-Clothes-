@@ -12,35 +12,93 @@
 }
 
 /* navigation */
-.navigation{
+.navigation {
     display: flex;
     gap: 80px;
     padding: 10px 5px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.navigation-logo{
+.navigation-logo {
     font-size: 25px;
     font-weight: bolder;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px 20px;
 }
 
-.navigation-tab ul{
+.navigation-tab ul {
     display: flex;
     gap: 40px;
     font-size: medium;
     padding: 10px 20px;
 }
 
-.search-box Button{
+.search-box button {
     background-color: rgb(236, 233, 233);
     color: rgb(79, 79, 79);
-    padding-left: 60px;
-    padding-right: 96px;
+    padding: 10px 20px;
 }
 
-.icon{
+.icon {
     display: flex;
     width: 50px;
     height: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    /* Tablet */
+    .navigation {
+        gap: 40px;
+    }
+
+    .navigation-logo {
+        font-size: 20px;
+    }
+
+    .navigation-tab ul {
+        gap: 20px;
+        font-size: small;
+        padding: 5px 10px;
+    }
+
+    .search-box button {
+        padding-left: 30px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Mobile */
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation-logo {
+        font-size: 18px;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .navigation-tab ul {
+        flex-direction: column;
+        gap: 10px;
+        font-size: small;
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    .search-box button {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: small;
+    }
+
+    .icon {
+        width: 40px;
+        height: 25px;
+    }
 }

@@ -1,128 +1,170 @@
-.button-content{
+.button-content {
     background-color: rgb(238, 236, 236);
     padding: 10px 80px;
 }
 
-.button-content Button{
+.button-content button {
     margin-left: 20px;
 }
 
-
-.new-arrivals h2{
+.new-arrivals h2 {
     text-align: center;
     padding-top: 40px;
-    font-size:xx-large;
+    font-size: xx-large;
 }
 
-.new-arrivals h3{
+.new-arrivals h3 {
     padding-left: 40px;
     padding-top: 20px;
-    font-size:x-large;
+    font-size: x-large;
 }
 
-.img{
+.img {
     display: flex;
     gap: 40px;
     padding-top: 10px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.img img{
+.img img {
     width: 200px;
 }
 
-.img h3{
+.img h3 {
     padding-top: 10px;
 }
 
-.button{
+.button {
     padding-left: 40px;
     padding-top: 20px;
 }
 
-.button Button{
+.button button {
     padding-left: 40px;
     padding-right: 40px;
 }
 
-.summer h3{
+.summer h3 {
     padding-left: 40px;
     padding-top: 20px;
-    font-size:x-large;
+    font-size: x-large;
 }
 
-.summer-img{
+.summer-img {
     display: flex;
     gap: 40px;
     padding-top: 10px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.summer-img img{
+.summer-img img {
     width: 200px;
 }
 
-.summer-img h3{
+.summer-img h3 {
     padding-top: 10px;
 }
 
-.summer-button{
+.summer-button {
     padding-left: 40px;
     padding-top: 20px;
 }
 
-.button Button{
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-.winter h3{
+.winter h3 {
     padding-left: 40px;
     padding-top: 20px;
-    font-size:x-large;
+    font-size: x-large;
 }
 
-.winter-img{
+.winter-img {
     display: flex;
     gap: 40px;
     padding-top: 10px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.winter-img img{
+.winter-img img {
     width: 200px;
 }
 
-.winter-img h3{
+.winter-img h3 {
     padding-top: 10px;
 }
 
-.winter-button{
+.winter-button {
     padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 40px;
 }
 
-.button Button{
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-
-.update{
+.update {
     background-color: black;
     color: white;
     padding: 20px 40px;
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.update h1{
+.update h1 {
     font-size: xx-large;
     padding: 10px 20px;
+    text-align: center;
 }
 
-.update-button button{
+.update-button button {
     display: flex;
     margin: 5px;
+}
+
+@media (max-width: 992px) {
+    /* Tablet */
+    .button-content {
+        padding: 10px 40px;
+    }
+
+    .img img, .summer-img img, .winter-img img {
+        width: 150px;
+    }
+
+    .update {
+        padding: 15px 30px;
+    }
+
+    .update h1 {
+        font-size: x-large;
+    }
+
+    .button button {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Mobile */
+    .button-content {
+        padding: 10px 20px;
+    }
+
+    .new-arrivals h2, .new-arrivals h3, .summer h3, .winter h3 {
+        text-align: center;
+        padding: 10px 0;
+        font-size: large;
+    }
+
+    .img img, .summer-img img, .winter-img img {
+        width: 120px;
+    }
+
+    .button button, .update h1 {
+        padding: 10px 20px;
+    }
+
+    .update h1 {
+        font-size: large;
+    }
 }

@@ -1,31 +1,31 @@
-.body{
+.body {
     margin: 0;
 }
 
-.display{
+.display {
     display: flex;
-   background-color: rgb(240, 238, 238);
+    background-color: rgb(240, 238, 238);
+    flex-direction: row; /* Stack items vertically for smaller devices */
 }
 
-.display-content h1{
-    font-size:xx-large;
-    padding-top: 60px;
-    padding-left: 40px;
+.display-content h1 {
+    font-size: xx-large;
+    padding: 60px 40px 0 40px;
 }
 
-.display-content p{
-    font-size:medium;
+.display-content p {
+    font-size: medium;
     color: gray;
     padding: 20px 40px;
 }
 
-.display-content button{
-    font-size:small;
+.display-content button {
+    font-size: small;
     padding: 10px 20px;
     margin: 20px 40px;
 }
 
-.display-tag{
+.display-tag {
     display: flex;
     gap: 30px;
     text-align: center;
@@ -33,17 +33,17 @@
     margin: 20px 40px;
 }
 
-.display-tag p{
+.display-tag p {
     font-size: larger;
     color: rgb(101, 100, 100);
 }
 
-.display-tag span{
-    font-size:smaller;
-    color:rgb(171, 170, 170);
+.display-tag span {
+    font-size: smaller;
+    color: rgb(171, 170, 170);
 }
 
-.ads{
+.ads {
     background-color: black;
     display: flex;
     gap: 60px;
@@ -52,149 +52,84 @@
     height: 40px;
 }
 
-.new-arrivals h2{
+.new-arrivals h2 {
     text-align: center;
     padding-top: 40px;
-    font-size:xx-large;
+    font-size: xx-large;
 }
 
-.new-arrivals h3{
+.new-arrivals h3,
+.summer h3,
+.winter h3 {
     padding-left: 40px;
     padding-top: 20px;
-    font-size:x-large;
+    font-size: x-large;
 }
 
-.img{
+.img,
+.summer-img,
+.winter-img {
     display: flex;
     gap: 40px;
     padding-top: 10px;
-    justify-content: center;
+    justify-content: center; /* Center images */
+    flex-wrap: wrap; /* Allow images to wrap on smaller screens */
 }
 
-.img img{
-    width: 200px;
+.img img,
+.summer-img img,
+.winter-img img {
+    width: 200px; /* Default image size */
 }
 
-.img h3{
-    padding-top: 10px;
-}
-
-.button{
+.button,
+.summer-button,
+.winter-button {
     padding-left: 40px;
     padding-top: 20px;
 }
 
-.button Button{
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-.summer h3{
-    padding-left: 40px;
-    padding-top: 20px;
-    font-size:x-large;
-}
-
-.summer-img{
-    display: flex;
-    gap: 40px;
-    padding-top: 10px;
-    justify-content: center;
-}
-
-.summer-img img{
-    width: 200px;
-}
-
-.summer-img h3{
-    padding-top: 10px;
-}
-
-.summer-button{
-    padding-left: 40px;
-    padding-top: 20px;
-}
-
-.button Button{
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-.winter h3{
-    padding-left: 40px;
-    padding-top: 20px;
-    font-size:x-large;
-}
-
-.winter-img{
-    display: flex;
-    gap: 40px;
-    padding-top: 10px;
-    justify-content: center;
-}
-
-.winter-img img{
-    width: 200px;
-}
-
-.winter-img h3{
-    padding-top: 10px;
-}
-
-.winter-button{
-    padding-left: 40px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-
-.button Button{
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-.browse{
+.browse {
     background-color: rgb(240, 239, 239);
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    font-size:x-large;
+    padding: 30px 0 20px 0;
+    font-size: x-large;
 }
 
-.browse-img{
+.browse-img {
     display: flex;
     gap: 10px;
-    width: 600px;
+    width: 600px; /* Set a specific width for browse images */
     padding-top: 20px;
     padding-left: 40px;
     justify-content: center;
     margin-left: 12em;
 }
 
-.customer{
+.customer {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    font-size:x-large;
+    padding: 30px 0 20px 0;
+    font-size: x-large;
 }
 
-.customer-content{
+.customer-content {
     display: flex;
     gap: 10px;
     padding: 20px;
 }
 
-.customer-content-1{
+.customer-content-1 {
     background-color: rgb(240, 238, 238);
     border-radius: 5px;
     padding: 10px;
 }
 
-.customer-content-1 p{
+.customer-content-1 p {
     color: gray;
     font-size: small;
 }
 
-.update{
+.update {
     background-color: black;
     color: white;
     padding: 20px 40px;
@@ -202,12 +137,106 @@
     gap: 10px;
 }
 
-.update h1{
+.update h1 {
     font-size: xx-large;
     padding: 10px 20px;
 }
 
-.update-button button{
+.update-button button {
     display: flex;
     margin: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .display {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .display-content h1 {
+        font-size: x-large; /* Decrease heading size */
+        padding: 40px 20px; /* Adjust padding */
+    }
+
+    .display-content p,
+    .display-content button,
+    .display-tag p,
+    .display-tag span {
+        padding: 10px 20px; /* Adjust padding */
+        margin: 10px 20px; /* Adjust margin */
+    }
+
+    .img,
+    .summer-img,
+    .winter-img {
+        flex-direction: row; /* Keep images in a row on larger screens */
+        gap: 20px; /* Reduce gap */
+    }
+
+    .browse-img {
+        flex-direction: column; /* Stack images vertically */
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .customer-content {
+        flex-direction: column; /* Stack customer content vertically */
+        gap: 20px; /* Increase gap */
+    }
+}
+
+@media (max-width: 768px) {
+    .display-content h1 {
+        font-size: large; /* Further decrease heading size */
+    }
+    .display-tag{
+        font-size: small;
+        gap:2px;
+        padding-left: 2px;
+        margin-left: 2px;
+    }
+
+    .ads img{
+        width: 50px;
+    }
+    .new-arrivals h2,
+    .summer h3,
+    .winter h3 {
+        padding-left: 20px; /* Reduce left padding */
+    }
+
+    .img img,
+    .summer-img img,
+    .winter-img img {
+        width: 150px; /* Decrease image size */
+    }
+
+    .button button,
+    .summer-button button,
+    .winter-button button {
+        padding: 10px 15px; /* Reduce button padding */
+    }
+
+    .update h1{
+        font-size: large;
+    }
+
+    .update-button Button{
+        font-size:xx-small;
+        padding-top:1px;
+        padding-bottom:1px;
+    }
+}
+
+@media (max-width: 576px) {
+    .display-tag{
+        font-size: small;
+    }
+    .browse {
+        font-size: large; /* Further decrease font size */
+    }
+
+    .ads {
+        flex-direction: column; /* Stack ads vertically */
+        gap: 10px; /* Reduce gap */
+    }
 }

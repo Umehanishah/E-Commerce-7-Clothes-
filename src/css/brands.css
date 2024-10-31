@@ -1,23 +1,66 @@
-.brand-1{
+.brand-1 {
     background-color: black;
-    padding-left: 34em;
+    padding-left: 34em; /* Large left padding, may need adjustment */
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.new-arrivals h3{
+.new-arrivals h3 {
     padding-left: 40px;
     padding-top: 20px;
-    font-size:x-large;
+    font-size: x-large;
 }
 
-.img{
+.img {
     display: flex;
     gap: 40px;
     padding-top: 10px;
     justify-content: center;
 }
 
-.img img{
+.img img {
     width: 200px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .brand-1 {
+        padding-left: 10%; /* Use percentage for responsive padding */
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .new-arrivals h3 {
+        padding-left: 20px; /* Reduce left padding for tablets */
+        font-size: large; /* Reduce font size for tablets */
+    }
+
+    .img {
+        gap: 20px; /* Reduce gap between images */
+    }
+
+    .img img {
+        width: 150px; /* Smaller image size for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .brand-1 {
+        padding-left: 5%; /* Further reduce padding for mobile */
+    }
+
+    .new-arrivals h3 {
+        padding-left: 10px; /* Further reduce padding for mobile */
+        font-size: medium; /* Further reduce font size */
+    }
+
+    .img {
+        flex-direction: column; /* Stack images vertically on mobile */
+        align-items: center; /* Center align images */
+    }
+
+    .img img {
+        width: 100%; /* Make images responsive */
+        max-width: 150px; /* Limit max width for images */
+    }
 }

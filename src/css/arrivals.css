@@ -1,67 +1,65 @@
-
-.new-arrivals h2{
+.new-arrivals h2 {
     text-align: center;
     padding-top: 40px;
-    font-size:xx-large;
+    font-size: xx-large;
 }
 
-.new-arrivals h3{
+.new-arrivals h3 {
     padding-left: 40px;
     padding-top: 20px;
-    font-size:x-large;
+    font-size: x-large;
 }
 
-.img{
+.img {
     display: flex;
     gap: 40px;
     padding-top: 10px;
     justify-content: center;
 }
 
-.img img{
+.img img {
     width: 200px;
 }
 
-.img h3{
+.img h3 {
     padding-top: 10px;
 }
 
-.button{
+.button {
     padding-left: 40px;
     padding-top: 20px;
 }
 
-.button Button{
+.button Button {
     padding-left: 40px;
     padding-right: 40px;
 }
 
-
-.customer{
+.customer {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
-    font-size:x-large;
+    font-size: x-large;
 }
 
-.customer-content{
+.customer-content {
     display: flex;
     gap: 10px;
     padding: 20px;
 }
 
-.customer-content-1{
+.customer-content-1 {
     background-color: rgb(240, 238, 238);
     border-radius: 5px;
     padding: 10px;
 }
 
-.customer-content-1 p{
+.customer-content-1 p {
     color: gray;
     font-size: small;
 }
 
-.update{
+.update {
     background-color: black;
     color: white;
     padding: 20px 40px;
@@ -69,12 +67,107 @@
     gap: 10px;
 }
 
-.update h1{
+.update h1 {
     font-size: xx-large;
     padding: 10px 20px;
 }
 
-.update-button button{
+.update-button button {
     display: flex;
     margin: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .new-arrivals h2 {
+        font-size: x-large; /* Adjust size for tablets */
+    }
+
+    .new-arrivals h3 {
+        padding-left: 20px; /* Reduce padding */
+        font-size: large; /* Adjust size for tablets */
+    }
+
+    .img {
+        gap: 20px; /* Reduce gap between images */
+    }
+
+    .img img {
+        width: 150px; /* Smaller image size for tablets */
+    }
+
+    .button {
+        padding-left: 20px; /* Reduce padding */
+    }
+
+    .button Button {
+        padding-left: 20px; 
+        padding-right: 20px; /* Adjust button padding */
+    }
+
+    .customer {
+        font-size: large; /* Adjust size for tablets */
+    }
+
+    .customer-content {
+        gap: 5px; /* Reduce gap */
+    }
+
+    .update {
+        padding: 20px 20px; /* Adjust padding */
+    }
+
+    .update h1 {
+        font-size: x-large; /* Adjust size for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Mobile styles */
+    .new-arrivals h2 {
+        font-size: large; /* Further reduce size */
+        padding-top: 20px; /* Reduce padding */
+    }
+
+    .new-arrivals h3 {
+        padding-left: 10px; /* Further reduce padding */
+        font-size: medium; /* Further reduce size */
+    }
+
+    .img {
+        flex-direction: column; /* Stack images vertically */
+        align-items: center; /* Center align */
+    }
+
+    .img img {
+        width: 100%; /* Make images responsive */
+        max-width: 150px; /* Limit max width */
+    }
+
+    .button {
+        padding-left: 0; /* Remove left padding */
+    }
+
+    .button Button {
+        padding: 10px 20px; /* Adjust button padding */
+        width: 100%; /* Full-width buttons */
+    }
+
+    .customer {
+        font-size: medium; /* Further reduce size */
+    }
+
+    .customer-content {
+        flex-direction: column; /* Stack customer content */
+        align-items: center; /* Center align */
+    }
+
+    .update {
+        flex-direction: column; /* Stack update button vertically */
+        align-items: center; /* Center align */
+    }
+
+    .update h1 {
+        font-size: large; /* Further reduce size */
+    }
 }
